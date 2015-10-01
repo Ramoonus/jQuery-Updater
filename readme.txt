@@ -5,6 +5,7 @@ Tags: jquery, update, jquery ui, javascript, jq
 Requires at least: 3.9
 Tested up to: 4.3
 Stable tag: 2.1.4
+Text Domain: jquery-updater
 
 This plugin updates jQuery to the latest stable version on your website.
 
