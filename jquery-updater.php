@@ -13,7 +13,7 @@
 
 /*
  * Replace jQuery with a newer version, load jQuery Migrate
- * @version 2.2.0
+ * @version 2.2.0.1
  * @since 1.0.0
  */
 function rw_jquery_updater() {
@@ -29,7 +29,7 @@ function rw_jquery_updater() {
 		// Deregister core jQuery Migrate
 		wp_deregister_script('jquery-migrate');
 		// Register
-		wp_enqueue_script('jquery-migrate', plugins_url('/js/jquery-migrate-1.2.1.min.js', __FILE__), array('jquery'), '1.2.1'); // require jquery, as loaded above	
+		wp_enqueue_script('jquery-migrate', plugins_url('/js/jquery-migrate-1.3.0.min.js', __FILE__), array('jquery'), '1.3.0'); // require jquery, as loaded above
 }
 // Front-End
 add_action('wp_enqueue_scripts', 'rw_jquery_updater');
