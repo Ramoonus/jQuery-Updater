@@ -15,11 +15,11 @@ Since jQuery 2.2 was used in this plugin, making jQuery 1.x obsolete, [jQuery Mi
 
 No files are replaced, therefore deactivation of this plugin returns your site to it`s original state.
 
-=== Warning ===
+*Warning*
 If you are not familiar with beta testing, bugfixing, javascript or running bleeding edge software it`s recommended.
 I will not provide help on JavaScript and jQuery!
 
-=== Reporting problems ===
+*Reporting problems*
 Please post bug reports and request for help on [WordPress.org Support Forums](https://wordpress.org/support/plugin/jquery-updater). I will only provide help on issues caused by the plugin, not on JavaScript and jQuery related matters!
 Please report feature requests and code changes on [GitHub Issues page](https://github.com/Ramoonus/jQuery-Updater/issues)
 
@@ -39,14 +39,13 @@ For more information on the development visit the plugins [GitHub](https://githu
 
 == Frequently Asked Questions == 
 1. Q: Do I need this plugin if I`m running the latest version of WordPress on my site?
-A: no
+A: No
 
 2. Q: Is this plugin compatible with PHP 5.2 / 5.3 / 5.4 or 7?
 A: Yes
 
 3. Q: This plugin breaks my site! How do I fix it?
 A: Using jQuery version 2 could break your site. See the warning on the homepage of this plugin.
-
 
 == Changelog ==
 
