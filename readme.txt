@@ -52,7 +52,7 @@ A: Using jQuery version 2 could break your site. See the warning on the homepage
 
 Updated Readme
 
-== 2.2.0.1 =
+== 2.2.0.1 ==
 * Updated jQuery Migrate to 1.3.1
 * Removed unused files
 
