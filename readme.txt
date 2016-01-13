@@ -16,16 +16,19 @@ Since jQuery 2.2 was used in this plugin, making jQuery 1.x obsolete, [jQuery Mi
 No files are replaced, therefore deactivation of this plugin returns your site to it`s original state.
 
 *Warning*
+
 If you are not familiar with beta testing, bugfixing, javascript or running bleeding edge software it`s recommended.
 I will not provide help on JavaScript and jQuery!
 
 *Reporting problems*
+
 Please post bug reports and request for help on [WordPress.org Support Forums](https://wordpress.org/support/plugin/jquery-updater). I will only provide help on issues caused by the plugin, not on JavaScript and jQuery related matters!
 Please report feature requests and code changes on [GitHub Issues page](https://github.com/Ramoonus/jQuery-Updater/issues)
 
 If you run into any bugs, turning this plugin off will fully deactivate everything.
 
 *Work in Progress*
+
 * Options screen to enable/disable
 * Option to choose a specific jQuery version
 * Automatic cache flushing
