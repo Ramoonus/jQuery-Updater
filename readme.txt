@@ -10,11 +10,27 @@ Text Domain: jquery-updater
 This plugin updates jQuery to the latest stable version on your website.
 
 == Description ==
-This plugin updates jQuery to the latest official stable version on your website.
+This plugin updates [jQuery](http://jquery.com/) to the latest official stable version, which is most likely not available within the latest stable release of WordPress.
+Since jQuery 2.2 was used in this plugin, making jQuery 1.x obsolete, [jQuery Migrate](http://jquery.com/download/#jquery-migrate-plugin) is also included.
 
-For more about jQuery information visit [jquery.com](http://jquery.com)
+No files are replaced, therefore deactivation of this plugin returns your site to it`s original state.
 
-Please report bugs and issues on our [GitHub Issues page](https://github.com/Ramoonus/jQuery-Updater/issues)
+=== Warning ===
+If you are not familiar with beta testing, bugfixing, javascript or running bleeding edge software it`s recommended.
+I will not provide help on JavaScript and jQuery!
+
+=== Reporting problems ===
+Please post bug reports and request for help on [WordPress.org Support Forums](https://wordpress.org/support/plugin/jquery-updater). I will only provide help on issues caused by the plugin, not on JavaScript and jQuery related matters!
+Please report feature requests and code changes on [GitHub Issues page](https://github.com/Ramoonus/jQuery-Updater/issues)
+
+If you run into any bugs, turning this plugin off will fully deactivate everything.
+
+=== Work in Progress ==
+* Options screen to enable/disable
+* Option to choose a specific jQuery version
+* Automatic cache flushing
+
+For more information on the development visit the plugins [GitHub](https://github.com/Ramoonus/jQuery-Updater/issues)
 
 == Installation ==
 1. Upload `jquery-updater/` to the `/wp-content/plugins/` directory
@@ -23,16 +39,19 @@ Please report bugs and issues on our [GitHub Issues page](https://github.com/Ram
 
 == Frequently Asked Questions == 
 1. Q: Do I need this plugin if I`m running the latest version of WordPress on my site?
-A: possibly not
+A: no
 
-2. Q: This plugin doesn`t seem to do anything?
-A: If you don`t know what you are doing, or what to expect from this plugin: read the readme
+2. Q: Is this plugin compatible with PHP 5.2 / 5.3 / 5.4 or 7?
+A: Yes
 
 3. Q: This plugin breaks my site! How do I fix it?
-A: Using jQuery version 2 could break your site.
+A: Using jQuery version 2 could break your site. See the warning on the homepage of this plugin.
 
 
 == Changelog ==
+
+Updated Readme
+
 == 2.2.0.1 =
 * Updated jQuery Migrate to 1.3.1
 * Removed unused files
