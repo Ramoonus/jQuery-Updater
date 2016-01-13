@@ -25,7 +25,7 @@ Please report feature requests and code changes on [GitHub Issues page](https://
 
 If you run into any bugs, turning this plugin off will fully deactivate everything.
 
-=== Work in Progress ==
+*Work in Progress*
 * Options screen to enable/disable
 * Option to choose a specific jQuery version
 * Automatic cache flushing
@@ -37,7 +37,7 @@ For more information on the development visit the plugins [GitHub](https://githu
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Sit back and enjoy
 
-== Frequently Asked Questions == 
+== Frequently Asked Questions ==
 1. Q: Do I need this plugin if I`m running the latest version of WordPress on my site?
 A: No
 
