@@ -4,7 +4,7 @@ Donate link: http://www.ramoonus.nl/donate/
 Tags: jquery, update, jquery ui, javascript, jq
 Requires at least: 3.8
 Tested up to: 4.5
-Stable tag: 2.2.3
+Stable tag: 2.2.4
 Text Domain: jquery-updater
 
 This plugin updates jQuery to the latest stable version on your website.
@@ -55,6 +55,10 @@ A: Using jQuery version 2 could break your site. See the warning on the homepage
 * [Updated jQuery to 2.2.3](https://blog.jquery.com/2016/04/05/jquery-1-12-3-and-2-2-3-released/)
 
 == Changelog ==
+= 2.2.3 =
+* Updated jQuery to 2.2.4
+* Updated jQuery Migrate to 1.4.1
+
 = 2.2.3 =
 * [Updated jQuery to 2.2.3](http://blog.jquery.com/2016/02/22/jquery-1-12-1-and-2-2-1-released/)
 * Updated Upgrade Notice
