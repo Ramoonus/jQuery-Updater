@@ -2,15 +2,15 @@
 Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: jquery, update, jquery ui, javascript, jq
-Requires at least: 4.0
+Requires at least: 4.2
 Tested up to: 4.6
-Stable tag: 3.1.0
+Stable tag: 3.1.1
 
 This plugin updates jQuery to the latest stable version on your website.
 
 == Description ==
 This plugin updates [jQuery](http://jquery.com/) to the latest official stable version, which is most likely not available within the latest stable release of WordPress.
-Since jQuery 2.2 was used in this plugin, making jQuery 1.x obsolete, [jQuery Migrate](http://jquery.com/download/#jquery-migrate-plugin) is also included.
+Since jQuery 2+ was used in this plugin, making jQuery 1.x obsolete, [jQuery Migrate](http://jquery.com/download/#jquery-migrate-plugin) is also included.
 
 No files are replaced, therefore deactivation of this plugin returns your site to it`s original state.
 
@@ -54,6 +54,9 @@ A: Using jQuery version 2 could break your site. See the warning on the homepage
 * WARNING: Updated jQuery to 3.1.0
 
 == Changelog ==
+= 3.1.1 =
+* Updated jQuery to 3.1.1
+
 = 3.1.0 =
 * [Updated jQuery to 3.1.0](https://blog.jquery.com/2016/07/07/jquery-3-1-0-released-no-more-silent-errors/)
 * Updated minimum supported WordPress version to 4.2 (from 4.0)
