@@ -4,7 +4,7 @@ Donate link: http://www.ramoonus.nl/donate/
 Tags: jquery, update, jquery ui, javascript, jq
 Requires at least: 4.2
 Tested up to: 4.7
-Stable tag: 3.1.1
+Stable tag: 3.2.0
 
 This plugin updates jQuery to the latest stable version on your website.
 
@@ -49,11 +49,11 @@ A: Yes
 3. Q: This plugin breaks my site! How do I fix it?
 A: Using jQuery version 2 could break your site. See the warning on the homepage of this plugin.
 
-== Upgrade Notice ==
-= 3.1.0 =
-* WARNING: Updated jQuery to 3.1.0
-
 == Changelog ==
+= 3.2.0 =
+* Updated jQuery to 3.2.0
+* Removed upgrade notice
+
 = 3.1.1 =
 * Updated jQuery to 3.1.1
 
