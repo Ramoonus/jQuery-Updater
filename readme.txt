@@ -50,6 +50,9 @@ A: Yes
 A: Using jQuery version 2 could break your site. See the warning on the homepage of this plugin.
 
 == Changelog ==
+= 3.2.1 =
+* Updated jQuery to 3.2.1
+
 = 3.2.0 =
 * Updated jQuery to 3.2.0
 * Removed upgrade notice
