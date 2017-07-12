@@ -1,5 +1,5 @@
 <?php
-/*
+/**
  * Plugin Name: jQuery Updater
  * Plugin URI: http://www.ramoonus.nl/wordpress/jquery-updater/
  * Description: This plugin updates jQuery to the latest  stable version.
@@ -11,7 +11,7 @@
  * Domain Path: /languages
  */
 
-/*
+/**
  * Replace jQuery with a newer version, load jQuery Migrate
  * @version 3.2.1
  * @since 1.0.0
@@ -32,10 +32,12 @@ function rw_jquery_updater()
     wp_enqueue_script('jquery-migrate', plugins_url('/js/jquery-migrate-3.0.0.min.js', __FILE__), array('jquery'), '3.0.0'); // require jquery, as loaded above
 }
 
-// Front-End
+/**
+ * Front-End
+ */ 
 add_action('wp_enqueue_scripts', 'rw_jquery_updater');
 
-/*
+/**
  * Load translation
  * @since 2.2.0
  * @version 1.0
