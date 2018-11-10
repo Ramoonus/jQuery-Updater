@@ -77,7 +77,7 @@ A: Using jQuery version 2 could break your site. See the warning on the homepage
 * [Updated jQuery Migrate to 3.0.0]()https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/
 * Updated minimum supported WordPress version to 4.0 (from 3.8)
 
-= 2.2.3 =
+= 2.2.4 =
 * Updated jQuery to 2.2.4
 * Updated jQuery Migrate to 1.4.1
 
@@ -93,7 +93,7 @@ A: Using jQuery version 2 could break your site. See the warning on the homepage
 * [Updated jQuery to 2.2.1](http://blog.jquery.com/2016/02/22/jquery-1-12-1-and-2-2-1-released/)
 * Updated Readme
 
-== 2.2.0.1 ==
+= 2.2.0.1 =
 * Updated jQuery Migrate to 1.3.1
 * Removed unused files
 
