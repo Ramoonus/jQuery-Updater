@@ -3,7 +3,7 @@ Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: jquery, update, jquery ui, javascript, jq
 Requires at least: 4.2
-Tested up to: 5.0
+Tested up to: 5.1
 Stable tag: 3.3.1
 Requires PHP: 5.6
 
