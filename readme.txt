@@ -3,8 +3,8 @@ Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: jquery, update, jquery ui, javascript, jq
 Requires at least: 4.2
-Tested up to: 5.1
-Stable tag: 3.3.1
+Tested up to: 5.2
+Stable tag: 3.4.0
 Requires PHP: 5.6
 
 This plugin updates jQuery to the latest stable version on your website.
@@ -44,13 +44,13 @@ For more information on the development visit the plugins [GitHub](https://githu
 1. Q: Do I need this plugin if I`m running the latest version of WordPress on my site?
 A: No
 
-2. Q: Is this plugin compatible with PHP 5.2 / 5.3 / 5.4 / 5.5 / 5.6 or 7 and HHVM?
-A: Yes
-
-3. Q: This plugin breaks my site! How do I fix it?
+2. Q: This plugin breaks my site! How do I fix it?
 A: Using jQuery version 2 could break your site. See the warning on the homepage of this plugin.
 
 == Changelog ==
+= 3.3.1 =
+* Updated [jQuery to 3.4.0](http://blog.jquery.com/2019/04/10/jquery-3-4-0-released/)
+
 = 3.3.1 =
 * Updated [jQuery to 3.3.1](http://blog.jquery.com/2018/01/20/jquery-3-3-1-fixed-dependencies-in-release-tag/)
 
