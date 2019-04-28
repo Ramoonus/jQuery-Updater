@@ -47,6 +47,9 @@ A: No
 2. Q: This plugin breaks my site! How do I fix it?
 A: Using jQuery version 2 could break your site. See the warning on the homepage of this plugin.
 
+== Upgrade Notice ==
+Please clear the server and browser cache after upgrading/disabling
+
 == Changelog ==
 = 3.3.1 =
 * Updated [jQuery to 3.4.0](http://blog.jquery.com/2019/04/10/jquery-3-4-0-released/)
@@ -215,3 +218,7 @@ jQuery 2.0 has the same API as jQuery 1.9, but does not support Internet Explore
 
 = 1.0 =
 * First version, uses jQuery 1.5.2 on Googles CDN
+
+== Screenshots ==
+No screenshot available.
+
