@@ -4,7 +4,7 @@ Donate link: http://www.ramoonus.nl/donate/
 Tags: jquery, update, jquery ui, javascript, jq
 Requires at least: 4.2
 Tested up to: 5.2
-Stable tag: 3.4.1
+Stable tag: 3.4.1.1
 Requires PHP: 5.6
 
 This plugin updates jQuery to the latest stable version on your website.
@@ -51,6 +51,11 @@ A: Using jQuery version 2 could break your site. See the warning on the homepage
 Please clear the server and browser cache after upgrading/disabling
 
 == Changelog ==
+= 3.4.1.1 =
+As requested on the wordpress.org support forms: 
+* Added jQuery (update) to the login screen
+*  Improved queing
+
 = 3.4.1 =
 * Updated [jQuery to 3.4.1](http://blog.jquery.com/2019/05/01/jquery-3-4-1-triggering-focus-events-in-ie-and-finding-root-elements-in-ios-10/)
 

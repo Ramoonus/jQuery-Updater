@@ -1,10 +1,9 @@
 <?php
-
 /**
  * Plugin Name: jQuery Updater
  * Plugin URI: http://www.ramoonus.nl/wordpress/jquery-updater/
  * Description: This plugin updates jQuery to the latest  stable version.
- * Version: 3.4.1
+ * Version: 3.4.1.1
  * Author: Ramoonus
  * Author URI: http://www.ramoonus.nl/
  * License: GPL3
@@ -25,13 +24,13 @@ function rw_jquery_updater()
     // Deregister core jQuery
     wp_deregister_script('jquery');
     // Register
-    wp_enqueue_script('jquery', plugins_url('/js/jquery-3.4.1.min.js', __FILE__), false, '3.4.1');
+    wp_register_script('jquery', plugins_url('/js/jquery-3.4.1.min.js', __FILE__), false, '3.4.1');
 
     // jQuery Migrate
     // Deregister core jQuery Migrate
     wp_deregister_script('jquery-migrate');
     // Register
-    wp_enqueue_script('jquery-migrate', plugins_url('/js/jquery-migrate-3.0.0.min.js', __FILE__), array(
+    wp_register_script('jquery-migrate', plugins_url('/js/jquery-migrate-3.0.0.min.js', __FILE__), array(
         'jquery'
     ), '3.0.0'); // require jquery, as loaded above
 }
@@ -40,6 +39,7 @@ function rw_jquery_updater()
  * Front-End
  */
 add_action('wp_enqueue_scripts', 'rw_jquery_updater');
+add_action('login_enqueue_scripts', 'rw_jquery_updater', 1); // since 3.4.0.1
 
 /**
  * Load translation
@@ -48,9 +48,9 @@ add_action('wp_enqueue_scripts', 'rw_jquery_updater');
  * @version 1.0
  *         
  */
-function rw__load_plugin_textdomain()
+function rw_load_plugin_textdomain()
 {
     load_plugin_textdomain('jquery-updater', FALSE, basename(dirname(__FILE__)) . '/languages/');
 }
 
-add_action('plugins_loaded', 'rw__load_plugin_textdomain');
+add_action('plugins_loaded', 'rw_load_plugin_textdomain');
