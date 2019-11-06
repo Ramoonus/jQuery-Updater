@@ -24,13 +24,13 @@ function rw_jquery_updater()
     // Deregister core jQuery
     wp_deregister_script('jquery');
     // Register
-    wp_enqueue_script('jquery', plugins_url('/js/jquery-3.4.1.min.js', __FILE__), false, '3.4.1');
+    wp_register_script('jquery', plugins_url('/js/jquery-3.4.1.min.js', __FILE__), false, '3.4.1');
 
     // jQuery Migrate
     // Deregister core jQuery Migrate
     wp_deregister_script('jquery-migrate');
     // Register
-    wp_enqueue_script('jquery-migrate', plugins_url('/js/jquery-migrate-3.0.0.min.js', __FILE__), array(
+    wp_register_script('jquery-migrate', plugins_url('/js/jquery-migrate-3.0.0.min.js', __FILE__), array(
         'jquery'
     ), '3.0.0'); // require jquery, as loaded above
 }
