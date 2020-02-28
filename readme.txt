@@ -51,6 +51,9 @@ A: Using jQuery version 2 could break your site. See the warning on the homepage
 Please clear the server and browser cache after upgrading/disabling
 
 == Changelog ==
+= 3.4.1.3 =
+* registering scripts not queuing
+
 = 3.4.1.2 =
 * Reverted back queuing
 
