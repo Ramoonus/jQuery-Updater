@@ -2,9 +2,9 @@
 Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: jquery, update, jquery ui, javascript, jq
-Requires at least: 4.2
+Requires at least: 5.0
 Tested up to: 5.4
-Stable tag: 3.4.1.3
+Stable tag: 3.5.0
 Requires PHP: 5.6
 
 This plugin updates jQuery to the latest stable version on your website.
@@ -51,6 +51,12 @@ A: Using jQuery version 2 could break your site. See the warning on the homepage
 Please clear the server and browser cache after upgrading/disabling
 
 == Changelog ==
+= 3.5.0 =
+* Updated [jQuery to 3.5.0](http://blog.jquery.com/2020/04/10/jquery-3-5-0-released/)
+* Updater [jQuery Migrate to 3.1.0](https://github.com/jquery/jquery-migrate/#readme)
+* Added option page, without any options
+* Added an activation message
+
 = 3.4.1.3 =
 * registering scripts not queuing
 
