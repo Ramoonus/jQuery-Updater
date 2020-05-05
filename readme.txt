@@ -51,6 +51,12 @@ A: Using jQuery version 2 could break your site. See the warning on the homepage
 Please clear the server and browser cache after upgrading/disabling
 
 == Changelog ==
+= 3.5.1 =
+* Updated [jQuery to 3.5.1](https://blog.jquery.com/2020/05/04/jquery-3-5-1-released-fixing-a-regression/)
+* Updater [jQuery Migrate to 3.3.0](https://github.com/jquery/jquery-migrate/#readme)
+* Changed priority from 1 to 10 (default)
+* Crafted placeholders for more options
+
 = 3.5.0 =
 * Updated [jQuery to 3.5.0](http://blog.jquery.com/2020/04/10/jquery-3-5-0-released/)
 * Updater [jQuery Migrate to 3.1.0](https://github.com/jquery/jquery-migrate/#readme)
