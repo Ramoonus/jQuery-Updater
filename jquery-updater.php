@@ -3,7 +3,7 @@
 * Plugin Name: jQuery Updater
 * Plugin URI: http://www.ramoonus.nl/wordpress/jquery-updater/
 * Description: This plugin updates jQuery to the latest  stable version.
-* Version: 3.5.1
+* Version: 3.5.1.1
 * Author: Ramoonus
 * Author URI: http://www.ramoonus.nl/
 * License: GPL3
@@ -27,12 +27,13 @@ function rw_jquery_updater()
     $min = true;
     $cdn = false; // google, microsoft, cdnjs, jsdelivr
     $migrate = true;
+    $enqueue_admin = false;
 
     // jQuery Core
     // Deregister jQuery core
     wp_deregister_script( 'jquery-core' );
     // Reregister jQuery core
-    wp_register_script( 'jquery-core', plugins_url( '/js/jquery-3.5.0.min.js', __FILE__ ), [], $ver_core );
+    wp_register_script( 'jquery-core', plugins_url( '/js/jquery-3.5.1.min.js', __FILE__ ), [], $ver_core );
 
     // jQuery Migrate
     // Deregister jQuery Migrate
@@ -140,6 +141,9 @@ function jqu_render_plugin_settings_page() {
 
         <label for="jquery-cdn">CDN: </label>
         <input type="checkbox" id="jquery-cdn" name="jquery-cdn">
+
+        <label for="jquery-admin">Enqueue in Dashboard: </label>
+        <input type="checkbox" id="jquery-admin" name="jquery-admin">
 
         <input name="submit" class="button button-primary" type="submit" value="<?php esc_attr_e( 'Save' ); ?>" disabled />
     </form>
